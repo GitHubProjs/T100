@@ -1,0 +1,95 @@
+/*hm_list*/
+
+.hm_list {
+    padding: .65rem .5rem;
+}
+
+.hm_list .hm_list_title {
+    position: relative;
+    font-size: 0;
+}
+
+.hm_list_title .list_bg {
+    width: 100%;
+}
+
+.hm_list_title .title_big {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 2rem;
+}
+
+.hm_list_content {
+    margin-top: .5rem;
+}
+
+.publish_time {
+    border: 1px solid #da1886;
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.publish_time span {
+    display: block;
+    height: 42px;
+    width: 100%;
+    background-color: #da1886;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.publish_time a {
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #333;
+    display: block;
+    width: 100%
+}
+
+.hm_list_content .list_details {
+    margin-left: 70px;
+}
+
+.hm_list_content li {
+    border-bottom: 1px solid #eee;
+    padding: .5rem 0;
+}
+
+.hm_list_content li:last-child {
+    border: none;
+}
+
+.hm_list_content .list_details h3 {
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    font-weight: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.hm_list_content .list_details p {
+    margin-top: 4px;
+    color: #999;
+    font-size: 12px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical
+}
+

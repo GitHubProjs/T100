@@ -1,0 +1,193 @@
+.hp_list_container {
+    width: 1160px;
+    margin: 0 auto
+}
+
+.hp_list_container .hp_list {
+    margin-right: -5px
+}
+
+.hp_list_container .hp_list_left {
+    margin-right: 5px;
+    float: left;
+    border: 1px solid #ddd
+}
+
+.hp_list_container .hp_list_right {
+    width: 386px;
+    float: left;
+    height: 487px
+}
+
+.hp_list_container .hp_list_left_title {
+    margin-bottom: 20px;
+    background: url(http://r3.ihuipao.cn/site/2018/wuximarathon/pc/img/content/normal_question.png);
+    width: 770px;
+    height: 75px;
+    text-align: center
+}
+
+.hp_list_container .hp_list_left_title span {
+    font-size: 26px;
+    font-family: "Microsoft YaHei";
+    color: #fff;
+    font-weight: 700;
+    line-height: 75px;
+    text-shadow: 0 0 12px rgba(0, 0, 0, .5)
+}
+
+.hp_list_container .hp_list_left_list {
+    position: relative;
+    margin: 0 20px;
+    padding-bottom: 60px;
+    min-height: 390px;
+    background: url(http://r3.ihuipao.cn/site/2018/wuximarathon/pc/img/list/bgc_top.png) right 0 top 0 no-repeat, url(http://r3.ihuipao.cn/site/2018/wuximarathon/pc/img/list/bgc_bottom.png) right 20px bottom 20px no-repeat
+}
+
+.hp_list_container .hp_list_left_list .hp_list_left_list_li {
+    height: 55px;
+    width: 730px;
+    font-size: 0;
+    border-bottom: 1px solid #eee
+}
+
+.hp_list_container .hp_list_left_list .hp_list_left_list_li a {
+    height: 100%;
+    width: 100%;
+    color: #999
+}
+
+.hp_list_container .hp_list_left_list .hp_list_left_list_li:hover a {
+    color: #036a85
+}
+
+.hp_list_container .hp_list_left_list .list_div_left {
+    width: 560px;
+    height: 55px;
+    line-height: 55px;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.hp_list_container .hp_list_left_list .list_div_right {
+    width: 170px;
+    height: 55px;
+    line-height: 55px;
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.hp_list_container .hp_list .pagination {
+    margin-top: 30px;
+    position: absolute;
+    bottom: 10px;
+    width: 300px;
+    left: 260px;
+}
+
+.hp_list_container .hp_list .pagination_ul li {
+    cursor: pointer;
+    float: left;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #036a85;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin-left: 12px
+}
+
+.hp_list_container .hp_list .pagination_ul li:hover {
+    background-color: rgba(3, 106, 133, .9);
+}
+
+.hp_list_container .hp_list .pagination_ul li.disable {
+    cursor: not-allowed;
+    background-color: #666;
+}
+
+
+.time-show{
+    height: 300px;
+    background-color: #fdfdfd;
+
+}
+.title_top {
+    position: relative;
+    width: 100%;
+    height: 38px;
+    margin-top: 2px;
+}
+.title_top .news_bg {
+    width: 148px;
+    height: 38px;
+    margin: 0 auto;
+    line-height: 38px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    border-radius: 38px 38px 0 38px;
+}
+.title_top .border_none {
+    display: inline-block;
+    width: 20px;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 100% 0 0 100%/50%;
+    border-right: none;
+}
+.title_top .media_title {
+    text-align: left;
+    background-position: right;
+    background-position-y: 6px;
+    padding-right: 20px;
+}
+.title_top .webmainfont {
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 3px;
+}
+.list-inf{
+    margin-top:30px;
+}
+.list-inf ul.ul_d {
+    font-size: 14px;
+    color: #333333;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.list-inf ul.ul_d .tent_right {
+    margin-left: 20px;
+}
+.list-inf ul.ul_d li {
+    margin-top: 20px;
+}
+.list-inf ul.ul_d li span.tent_left {
+    width: 55px;
+    display:inline-block;
+}
+.list-inf ul.ul_d .tent_right {
+    margin-left: 20px;
+}
+.list-inf ul.ul_d .time {
+    padding-left: 0;
+    padding-right: 0;
+    width: 56px;
+}
+.cem {
+    width: 219px;
+    padding-right: 0px;
+    margin-left: 25px;
+    padding-left: 0;
+    font-size: 14px;
+}

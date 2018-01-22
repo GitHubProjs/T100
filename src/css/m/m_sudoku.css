@@ -1,0 +1,41 @@
+.sudouku {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.sudouku-row {
+    /*width: 100%;*/
+    height: 87px;
+    display: flex;
+    margin-bottom: 10px;
+    padding:0 10px;
+
+}
+
+.row-item {
+    width: 100%;
+    background-color: #fff;
+
+}
+.row-item+.row-item{
+   margin-left: 10px;
+}
+.row-item a{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row-item a img{
+    width:40%;
+    margin-bottom: 5px;
+}
+
+
+
+
+

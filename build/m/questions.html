@@ -1,0 +1,222 @@
+<!--引入html文件头部，传3个值-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="keywords" content="2018TNF100" />
+    <meta name="description" content="2018TNF100" />
+    <title>2018无锡马拉松</title>
+    <link href="../img/logo/logo.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/Swiper/3.2.7/css/swiper.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/css/m.min.css?V=1516589870396="/>-->
+    <link rel="stylesheet" type="text/css" href="../css/m.min.css?V=1516589870396="/>
+
+    <script type="text/javascript">
+        /* 因为我们后面用的是rem布局，所以这里做下处理，根据不用设备分辨率更改跟字体大小。 rem相关布局[请参考](http://www.jianshu.com/p/65f80d4b44bb)*/
+        (function(win, doc) {
+            change();
+
+            function change() {
+                doc.documentElement.style.fontSize = doc.documentElement.clientWidth * 20 / 320 + 'px';
+            }
+            win.addEventListener('resize', change, false);
+            win.addEventListener('orientationchange', change, false); /* 这个是移动端设备横屏、竖屏转换时触发的事件处理函数 */
+        })(window, document);
+    </script>
+</head>
+<body class=""> 
+<div class="m-header hm_clear">
+<div class="m-header-left hm_left">
+    <img src="http://r0.ihuipao.cn/race/2017mgsh5/img/logo.png" alt="">
+</div>
+    <div class="m-header-right hm_right hm_menu">
+        <img src="http://r0.ihuipao.cn/race/2017mgsh5/img/header.png" alt="">
+    </div>
+</div> 
+<div class="hm_pop hm_right_menu">
+    <ul class="hm_pop_container">
+        <li class="item">
+            <a href="/" class="entry">首页 </a>
+        </li>
+        <li class="item">
+            <div class="entry">
+                <a class="" href="javascript:;">参赛指南</a>
+                <span class="arrow_down"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">赛事规程</a>
+                </li>
+                <li>
+                    <a href="#">报名须知</a>
+                </li>
+                <li>
+                    <a href="#">参赛报名</a>
+                </li>
+                <li>
+                    <a href="#">报名查询</a>
+                </li>
+                <li>
+                    <a href="#">常见问题</a>
+                </li>
+                <li>
+                    <a href="#">赛道地图</a>
+                </li>
+                <li>
+                    <a href="#">领物须知</a>
+                </li>
+            </ul>
+        </li>
+        <li class="item">
+            <div class="entry">
+                <a class="" href="javascript:;">新闻公告</a>
+                <span class="arrow_down"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">赛事公告 </a>
+                </li>
+                <li>
+                    <a href="#">赛事新闻 </a>
+                </li>
+            </ul>
+        </li>
+        <li class="item">
+            <a href="#" class="entry">锡马公益 </a>
+        </li>
+        <li class="item">
+            <div class="entry">
+                <a class="" href="#">志愿者&amp;官方配速员 </a>
+                <span class="arrow_down"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">志愿者</a>
+                </li>
+                <li>
+                    <a href="#">官方配速员</a>
+                </li>
+            </ul>
+        </li>
+        <li class="item">
+            <div class="entry">
+                <a class="" href="javascript:;">合作伙伴 </a>
+                <span class="arrow_down"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        赛事合作伙伴 </a>
+                </li>
+                <li>
+                    <a href="#">
+                        赛事直播媒体 </a>
+                </li>
+            </ul>
+        </li>
+        <li class="item">
+            <div class="entry">
+                <a class="" href="javascript:;">商城&amp;酒店 </a>
+                <span class="arrow_down"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" target="_blank">酒店预定 </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<div class="hm_questions">
+	<div class="hm_questions_title">
+		<img src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/img/m/index/list_bg.png" class="list_bg"/>
+		<p class="title_big">常见问题</p>			
+	</div>		
+	<div class="hm_questions_content">
+		
+			<h3>问：怎样报名？</h3>
+			<p class="questions_details">
+答：第一步：首先，您需要有一个账号。点击官网右上角【注册|登录】<br>
+输入您的手机号码或者邮箱，系统自动识别您是否在我们的平台进行注册过<br>
+点击输入您的手机号码 → 进行识别，如果没有注册过，则跳到注册页面 → 点击进行人机识别 → 获取验证码 → 填入您的密码 → 点击注册即可。<br>
+或者用第三方的账号直接登录<br>
+注：如果您之前有在爱汇跑官网注册过、报名过赛事或用第三方账号登录过，则不需要再次注册，用原账号登录即可。<br>
+第二步：添加报名资料，在登录后，点右上角的【个人中心】
+			</p>
+			<table class="hm_table">
+			    <thead>
+			        <tr>
+			            <th>项目</th>
+			            <th>距离</th>
+			            <th>关门时间</th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td>迷你马拉松</td>
+			            <td>5公里</td>
+			            <td>8:35</td>
+			        </tr>
+			        <tr>
+			            <td rowspan="5" valign="middle">半程马拉松</td>
+			            <td>5公里</td>
+			            <td>8:35</td>
+			        </tr>
+			        <tr>
+			            <td>10公里</td>
+			            <td>9:10</td>
+			        </tr>
+			        <tr>
+			            <td>15公里</td>
+			            <td>9:55</td>
+			        </tr>
+			        <tr>
+			            <td>20公里</td>
+			            <td>10:35</td>
+			        </tr>
+			        <tr>
+			            <td>21.0975公里</td>
+			            <td>10:45</td>
+			        </tr>
+			    </tbody>
+			</table>
+			<h3>问：什么是A类赛事？有哪些赛事是A类赛事</h3>
+				<p><img alt="1482044240(1).jpg" src="http://stor.ihuipao.cn/@/media/2016/12/19/585732a6f1ac1.png?imageView2/2/w/800/q/100"></p>
+			<p class="questions_details">
+答：根据中国田径协会官方网站公布的《中国境内马拉松及相关运动赛事管理办法》，第五章规定：
+					<a href="http://www.athletics.org.cn/marathon/tzgg/2015-01-29/464330.html" target="_blank">田协官网链接</a>
+A类赛事认证标志着该赛事的赛道、计时、裁判、兴奋剂检测等核心竞赛管理工作达到中国田协成绩认证标准。只有通过中国田协A类赛事认证的赛事成绩方可计入中国田协以及国际田联的马拉松以及相关运动的成绩排名，可以申报全国、亚洲以及世界纪录及中国马拉松大众等级。<br>
+A类赛事的认证条件<br>
+（一）完成<br>
+（二）竞赛项目为以下国际田联的竞赛标准距离：<br>
+1、马拉松：42.195公里<br>
+2、半程马拉松：21.0975公里<br>
+3、其他距离项目：10公里、15公里、20公里、25公里、30公里、100公里和公路接力项目。
+			</p>
+	</div>
+</div>
+
+
+<div class="m-footer">
+    <p>主办单位：汇跑®赛事</p>
+    <p>协办单位：莫干山镇人民政府</p>
+    <p>客服电话： 400-99-42195 转1（工作时间：周一至周六9:30-18:30）</p>
+</div> 
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<!--<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>-->
+
+<script src="../assets/js/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.bootcss.com/Swiper/4.0.3/js/swiper.min.js"></script>
+<!--<script src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/assets/js/jquery.knob.min.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/assets/js/countdown.min.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/js/m.min.js?V=1516589870396=" type="text/javascript" charset="utf-8"></script>-->
+<script src="../js/m.min.js?V=1516589870396=" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>

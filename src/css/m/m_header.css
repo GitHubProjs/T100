@@ -1,0 +1,29 @@
+.m-header{
+    width:100%;
+    background-color: #1c3947;
+    /*height:60px;*/
+
+    /*line-height:60px;*/
+    padding: 10px 10px;
+    
+}
+.m-header-left,.m-header-right{
+    width:50%;
+    height: 100%;
+
+}
+.m-header-left img,.m-header-right img{
+    vertical-align: middle;
+
+}
+.m-header-left img{
+    width:50%;
+
+}
+.m-header-right{
+    text-align: right;
+}
+.m-header-right img{
+    width:20%;
+
+}

@@ -1,0 +1,9 @@
+.m-footer {
+    background-color: #1c3947;
+    padding: 0 10px;
+}
+.m-footer p{
+    font-size:14px;
+    color:#fff;
+    padding:5px 0;
+}

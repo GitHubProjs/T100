@@ -1,0 +1,197 @@
+#contactBar {
+    width: 40px;
+    height: 100%;
+    background: #222;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    padding-top: 120px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+#contactBar.hidebar {
+    right: -40px;
+}
+#contactBar em,
+#contactBar i,
+#contactBar strong,
+#contactBar b,
+#contactBar small,
+#contactBar h1,
+#contactBar h2,
+#contactBar h3,
+#contactBar h4,
+#contactBar h5,
+#contactBar h6,
+#contactBar address {
+    font-style: normal;
+    font-weight: normal;
+}
+#contactBar p {
+    margin: 0;
+}
+#contactBar .bubble {
+    width: 240px;
+    position: absolute;
+    transition: all 0.4s ease;
+    top: 50%;
+    right: -200px;
+    opacity: 0;
+    transform: translate(0, -50%);
+    z-index: -1;
+}
+#contactBar .bubble:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-left: 10px solid #222;
+    border-bottom: 6px solid transparent;
+    top: 50%;
+    right: 40px;
+    transform: translate(100%, -50%);
+    opacity: 0;
+}
+#contactBar .bubble a,
+#contactBar .bubble p,
+#contactBar .bubble div {
+    display: block;
+    width: 0;
+    line-height: 40px;
+    color: #fff;
+    opacity: 0;
+    background-color: #222;
+}
+#contactBar .bubble a,
+#contactBar .bubble p {
+    height: 40px;
+}
+#contactBar .bubble p {
+    cursor: initial;
+}
+#contactBar .icon {
+    display: inline-block;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 4px;
+}
+#contactBar .icon-shrink {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABf0lEQVR4Xu3aUXECQRAE0G4nSCEOgoPggDghDoiTxEFwgASi4FJTBb/52unprR0E3N08drvrto5Y/MfF50cD9ApYXKC3wOILoEOwt0BvgcUFhm+Bbdt2JG+zuGYA3AHsSf7MgJABsAEIhHeSF3eELIDn3CeSH84I2QAx+4Xk0RVBARCzfwE4kIytYfVTAcTQEYqBYNUQSoBAiBXw4tQQaoAngk1DVABYNUQlgEVDVAOUN4QDQGlDuACUNYQTQElDuAHIG8IVQNYQzgCShnAHSG+IGQBSG2IWgLSGmAngF0CcMA09ZpsFIIZPOWidAeAK4DXrIMUd4PsxfNpRmjPAJ8m37ANEV4A4MTpnDx/XdwNISfr/IJ0A0pJ+BoDUpHcHSE96ZwBJ0rsCyJLeDUCe9E4AJUnvAlCW9A4ApUlfDVCe9JUAFklfAWCV9GqA5T+TW/tDScU7/Mh7DH8dHvlwims1gELZ+R69Apz/HcWz9QpQKDvfo1eA87+jeLblV8AfzrnqQf42flYAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#contactBar .icon-shrink.reverse {
+    transform: rotate(180deg);
+}
+#contactBar .icon-kefu {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAHdElNRQfhAhcKGAe3KtbtAAABjklEQVRIx+2UvytFYRjHv+fWFTek60fdCBmIzU0ppRDZDBhsDAalDGYGpaRYFGWxGAxK8ifQNboZFMPduAZJsij0MXg73ve4595j5js953mez/e8532ejvSvENHGEnd865FVOqPCvVxTWPcMlILL2Qsgl9w6mWOqw/EUL37jHAmrEmeaD7/WVhhv8BtmJYlRdrnhiSu2GJQkpvyOlp94nJwpduCxUOAGZiSaeQPgzT7fl8GyaWuk3rcKKkMVtSbedvEmk06TpJhuSdBuYnusbAOwjkeG4jqQWATgxDb4Ui1jlFYfCRMlJVFH3jwe4VljDNeFxKGJ8zFtKGWO8aFmVUZY1W6SfpyKqd8qpSNuu3V9MafQHtGgNcygLKJBWZhBPhL+rpxtsG+VsoHWZ01oXOM6N88PWlGXF/dOnS52zEgOKQ8MrMv1Y5BNAGuMO4FXsuYYTJpsj5OdtwkvYFCjp8BHIKnGyVV4r0VuiKESe1h6V5gsgg9HmhNp89twdUdHJNyYjJG14DNGfgH/MX0Cax5xO9deoIcAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTctMDItMjNUMTA6MjQ6MDcrMDg6MDBae63nAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE3LTAyLTIzVDEwOjI0OjA3KzA4OjAwKyYVWwAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#contactBar .icon-phone {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAHdElNRQfhAhcLCxktCMArAAAB2klEQVRIx72UMWgUQRiFn7psElGDpEqMhYoRTCBamIQQOCGYQhBEDWhjoXi5awUrSRQuZRrBKhBSRFCxtBCEKLlKi2hlFbCxEUGQCBaCfBbO/Tu7O6uTxlfNvjfv25+dYaX/Ix5zi56Yjb3M0yq5PfzREw79rdzNHbfxXCGZIlO9qn4dX0kuG2bRy1bZXa4/IK+LgVfMWvqIQnSeor5kWzhNiyOSRB/vXH47D3hLWcctXQLgJYMSKW9cfsIH/AgA7lqaqSbR69ZtH/AiAPhqaZ3v5o5KzLj1sQzQCABy34krzvxFwi438b0sHgn0nxU+dM35FySaAGxnYVeh/Jwhl9zkE21OSRJPAXglMVSakddW3uSkuU1zB7MZJPaXAbPe+/vN/WleQ+KoAdIM0LmU6x7tmq0+22pbUmpP5ass0fZm2OO8aXP2SVy2CfrK5+RvhrPmDrPAHN2SxDoAKxJnQoDEA2wRmnGEFjAlcR+A98UNcx5iWpVCfAOgWQz25u5Cl0TCVQAmSogBbgT+TtQ9wDyXvKfDilHnfAPa6pzMvxC1SkQjCiCxVok4GAc4UAlYiJ1hvBKRxiKaFYCxWIBYDtQ/MBoJkEjYyJU/MhlddoiUh668SY0dtneg37nKPeWBLm49AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE3LTAyLTIzVDExOjExOjI1KzA4OjAwLZzPcwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNy0wMi0yM1QxMToxMToyNSswODowMFzBd88AAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#contactBar .icon-email {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAHdElNRQfhAhcLDTrZNRbfAAAAoUlEQVRIx+3UsRGDMBBE0ZWHZqROHDulCAI6UAOumCWwYBC6k84iIWAz5ua/UQTw7FbjTPtmCQCjMY8sYjKYiUgADGQOWIk9LwELccgloEVkuQzUiFOuARpR5DogEUJeA86EmNcB0u+EkreAjRi1vA2QPl2DfG4Dv1cE7WgByI9+AgC3AT0/AOeAV0943H2ApaNdAGBIH298/wamq69/lrYCR5m2jBjaPd4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTctMDItMjNUMTE6MTM6NTgrMDg6MDBCe3eXAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE3LTAyLTIzVDExOjEzOjU4KzA4OjAwMybPKwAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#contactBar .icon-qrcode {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAHdElNRQfhAhcLDyQRDEk+AAABAklEQVRIx+2UPW7CQBCFv0GUtDmHL0CDBFwAzkJHAx0lFYfAVbo4XSKl5hgU6ahS8CiMLK81AyS2lIZp9ueT3r6ZnV3477By0JCpy0+20YKBy97ss5prJj8KUBGwGUCvbQr9ZLXmUFvtEzavzTOWvgCWV0llEUlZQwAkADPPrsda16DjIobmY9YQKO/WzT8gqcCSOPb+dmc1OLJ2+Qko+HLZse3haYkef0ygVYeP6Q8CWvnbkupI2a/+g7iB7sX1Gi1X5QTcpp3jNlP/UQeW6+WGg1q8hxrnBvtxBWwSevjGYanASB+30lBRHqEFE2Brr02B4Z1CjK/jgDGwgw468RlwAS4cuDbrIppfAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE3LTAyLTIzVDExOjE1OjM2KzA4OjAw2TV1CgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNy0wMi0yM1QxMToxNTozNiswODowMKhozbYAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#contactBar .icon-scrolltop {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAHdElNRQfhAhcLEBGK5YODAAABDUlEQVRIx92QvU4CQRRGvwWNJPQmlnTGxCcwWGllb2ikxMYnsTOxxAJCgfoKFP4kJlDBE9hY+QQ05lg4wd3ZYbmz2/FtsXPv3nNyd6SCICbAK4nKBDHkL88lFIhb/nMXqfDwWEUG/4xWZPAxuwyiFB5el6hFKDL4I3XXtSrCuFmxHjcpivGNis14ocKGr1XY8YBCkjiz4znFhSQuY3BP0ZVEgxkwsuJO8QAsaNqZ7U0isaeTXP8jWeaH2dexPyeJF/KZcu51rqTA3LckeoEPN+794x4gKPhKL3gP9FcVwIE7N1OC9mriGljUql5iZcFONPFGumpV3eApfoPT5N3+C0cclr+DsTqapOp5eOwXdlIM8tg89nYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTctMDItMjNUMTE6MTY6MTcrMDg6MDDWUMLAAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE3LTAyLTIzVDExOjE2OjE3KzA4OjAwpw16fAAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#contactBar .contactBar-shrink {
+    display: block;
+    width: 16px;
+    height: 115px;
+    background: #222;
+    position: absolute;
+    top: 120px;
+    right: 40px;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    line-height: 130px;
+    vertical-align: middle;
+    text-align: center;
+    z-index: -2;
+}
+#contactBar ul {
+    list-style-type: none;
+}
+#contactBar ul li {
+    width: 40px;
+    height: 40px;
+    padding: 10px 0;
+    line-height: 36px;
+    position: relative;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+#contactBar ul li:hover {
+    background-color: #268cf4;
+}
+#contactBar ul li:hover .bubble {
+    width: 240px;
+    right: 40px;
+    opacity: 1;
+}
+#contactBar ul li:hover .bubble:after {
+    opacity: 1;
+}
+#contactBar ul li:hover .bubble a,
+#contactBar ul li:hover .bubble p,
+#contactBar ul li:hover .bubble div {
+    width: 200px;
+    opacity: 1;
+}
+#contactBar ul li.kefu {
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1;
+    height: auto;
+}
+#contactBar ul li.kefu em {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+#contactBar ul li.kefu .kefu-inner {
+    position: absolute;
+}
+#contactBar ul li.kefu .kefu-inner a:hover {
+    background-color: #268cf4;
+}
+#contactBar ul li.qrcode .qrcode-tip img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+#contactBar ul li.qrcode .qrcode-tip .footer-line {
+    width: 100px;
+    height: 0;
+    border-bottom: 2px solid #268cf4;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background: rgba(38, 140, 244, 0.2);
+    -webkit-animation: move 5s linear infinite;
+    -moz-animation: move 5s linear infinite;
+    -ms-animation: move 5s linear infinite;
+    -o-animation: move 5s linear infinite;
+    animation: move 5s linear infinite;
+}

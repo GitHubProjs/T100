@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="keywords" content="2018TNF100" />
+    <meta name="description" content="2018TNF100" />
+    <title>2018TNF100</title>
+    <link href="../img/logo/logo.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/Swiper/3.2.7/css/swiper.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/css/m.min.css?V=1516589870396="/>-->
+    <link rel="stylesheet" type="text/css" href="../css/m.min.css?V=1516589870396="/>
+
+    <script type="text/javascript">
+        /* 因为我们后面用的是rem布局，所以这里做下处理，根据不用设备分辨率更改跟字体大小。 rem相关布局[请参考](http://www.jianshu.com/p/65f80d4b44bb)*/
+        (function(win, doc) {
+            change();
+
+            function change() {
+                doc.documentElement.style.fontSize = doc.documentElement.clientWidth * 20 / 320 + 'px';
+            }
+            win.addEventListener('resize', change, false);
+            win.addEventListener('orientationchange', change, false); /* 这个是移动端设备横屏、竖屏转换时触发的事件处理函数 */
+        })(window, document);
+    </script>
+</head>
+<body class="body_color">
+<div class="m-header hm_clear">
+<div class="m-header-left hm_left">
+    <img src="http://r0.ihuipao.cn/race/2017mgsh5/img/logo.png" alt="">
+</div>
+    <div class="m-header-right hm_right hm_menu">
+        <img src="http://r0.ihuipao.cn/race/2017mgsh5/img/header.png" alt="">
+    </div>
+</div>
+<div class="hm_pop hm_right_menu">
+    <ul class="hm_pop_container">
+        <li class="item">
+            <a href="/" class="entry">首页 </a>
+        </li>
+        <li class="item">
+            <div class="entry">
+                <a class="" href="javascript:;">参赛指南</a>
+                <span class="arrow_down"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">赛事规程</a>
+                </li>
+                <li>
+                    <a href="#">报名须知</a>
+                </li>
+                <li>
+                    <a href="#">参赛报名</a>
+                </li>
+                <li>
+                    <a href="#">报名查询</a>
+                </li>
+                <li>
+                    <a href="#">常见问题</a>
+                </li>
+                <li>
+                    <a href="#">赛道地图</a>
+                </li>
+                <li>
+                    <a href="#">领物须知</a>
+                </li>
+            </ul>
+        </li>
+        <li class="item">
+            <div class="entry">
+                <a class="" href="javascript:;">新闻公告</a>
+                <span class="arrow_down"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">赛事公告 </a>
+                </li>
+                <li>
+                    <a href="#">赛事新闻 </a>
+                </li>
+            </ul>
+        </li>
+        <li class="item">
+            <a href="#" class="entry">锡马公益 </a>
+        </li>
+        <li class="item">
+            <div class="entry">
+                <a class="" href="#">志愿者&amp;官方配速员 </a>
+                <span class="arrow_down"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">志愿者</a>
+                </li>
+                <li>
+                    <a href="#">官方配速员</a>
+                </li>
+            </ul>
+        </li>
+        <li class="item">
+            <div class="entry">
+                <a class="" href="javascript:;">合作伙伴 </a>
+                <span class="arrow_down"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        赛事合作伙伴 </a>
+                </li>
+                <li>
+                    <a href="#">
+                        赛事直播媒体 </a>
+                </li>
+            </ul>
+        </li>
+        <li class="item">
+            <div class="entry">
+                <a class="" href="javascript:;">商城&amp;酒店 </a>
+                <span class="arrow_down"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" target="_blank">酒店预定 </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="hm_banner swiper-container ">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="javascript:;" target="_blank">
+                <img src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/img/index/banner_1.jpg" />
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="http://www.beverly.top/" target="_blank">
+                <img src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/img/index/banner_2.jpg" />
+            </a>
+        </div>
+        <!-- <div class="swiper-slide">
+                <a href="http://www.asics.com.cn/" target="_blank">
+                <img src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/img/index/banner_3.jpg" />
+            </a>
+        </div>   -->
+        <div class="swiper-slide">
+            <a href="http://www.asics.com.cn/" target="_blank">
+                <img src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/img/index/banner_4.jpg" />
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="http://www.crbeverage.com/" target="_blank">
+                <img src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/img/index/banner_5.jpg" />
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="https://sale.jd.com/act/NcdBbSs4GY5.html" target="_blank">
+                <img src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/img/index/banner_6.jpg" />
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="http://www.suunto.cn/zh-CHS/" target="_blank">
+                <img src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/img/index/banner_7.jpg" />
+            </a>
+        </div>
+    </div>
+</div>
+<div class="competition-selection hp_clear">
+    <div class="competition-selection-lists hm_left">
+        <a href="#">北京西山站</a>
+    </div>
+    <div class="competition-selection-lists hm_left">
+        <a href="#">长白山站</a>
+    </div>
+</div>
+<div class="sudouku">
+    <div class="sudouku-row">
+        <div class="row-item">
+            <a href="#">
+                <img src="http://r0.ihuipao.cn/race/2017mgsh5/img/enn/icon_one.png">
+                <p>参赛报名</p>
+            </a>
+        </div>
+        <div class="row-item">
+            <a href="#">
+                <img src="http://r0.ihuipao.cn/race/2017mgsh5/img/enn/icon_two.png" alt="">
+
+                <p>竞赛报名</p>
+            </a>
+        </div>
+        <div class="row-item">
+            <a href="#">
+                <img src="http://r0.ihuipao.cn/race/2017mgsh5/img/enn/icon_four.png">
+                <p>报名须知</p>
+            </a>
+        </div>
+    </div>
+    <div class="sudouku-row">
+
+        <div class="row-item">
+            <a href="#">
+                <img src="http://r0.ihuipao.cn/race/2017mgsh5/img/enn/icon_three.png">
+                <p>报名查询</p>
+            </a>
+        </div>
+        <div class="row-item">
+            <a href="#">
+                <img src="http://r0.ihuipao.cn/race/2017mgsh5/img/enn/icon_six.png">
+                <p>比赛路线</p>
+            </a>
+        </div>
+        <div class="row-item">
+            <a href="#">
+                <img src="http://r0.ihuipao.cn/race/2017mgsh5/img/enn/icon_one.png">
+                <p>报名办法</p>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="m-index-news hm_clear">
+    <div class="m-index-news-title hm_clear">
+        <div class="m-news-title-left hm_left">
+            <h4>赛事新闻</h4>
+        </div>
+        <div class="m-news-title-left hm_right">
+            <span>更多+</span>
+        </div>
+    </div>
+    <div class="m-index-news-content hp_clear">
+        <div class="news-content-img hm_left">
+            <img src="http://stor.ihuipao.cn/@/media/2017/11/30/5a1f5c49bb308.jpg?imageView2/1/w/270/h/170/q/100"
+                 alt="">
+        </div>
+        <div class="news-content-info">
+            <h4> 关于TNF100莫干山赛道调整的通知</h4>
+            <p>
+                亲爱的参赛选手：TNF100莫干山是继长白山之后，又一场在大陆境内的全新赛事。赛事在传承TNF100久远血脉的同时，更为越野爱好者开辟了全新的江南赛道的越野体验。赛期临近，由于莫干山季节更替、道路施工、村民劳作等原因，近期组委会与当地政府进行了深入的沟通和研判，出于安全考虑，对TNF10
+            </p>
+            <p>2018-1-1</p>
+        </div>
+        <div class="news-content-img hm_left">
+            <img src="http://stor.ihuipao.cn/@/media/2017/11/30/5a1f5c49bb308.jpg?imageView2/1/w/270/h/170/q/100"
+                 alt="">
+        </div>
+        <div class="news-content-info">
+            <h4> 关于TNF100莫干山赛道调整的通知</h4>
+            <p>
+                亲爱的参赛选手：TNF100莫干山是继长白山之后，又一场在大陆境内的全新赛事。赛事在传承TNF100久远血脉的同时，更为越野爱好者开辟了全新的江南赛道的越野体验。赛期临近，由于莫干山季节更替、道路施工、村民劳作等原因，近期组委会与当地政府进行了深入的沟通和研判，出于安全考虑，对TNF10
+            </p>
+            <p>2018-1-1</p>
+        </div>
+        <div class="news-content-img hm_left">
+            <img src="http://stor.ihuipao.cn/@/media/2017/11/30/5a1f5c49bb308.jpg?imageView2/1/w/270/h/170/q/100"
+                 alt="">
+        </div>
+        <div class="news-content-info">
+            <h4> 关于TNF100莫干山赛道调整的通知</h4>
+            <p>
+                亲爱的参赛选手：TNF100莫干山是继长白山之后，又一场在大陆境内的全新赛事。赛事在传承TNF100久远血脉的同时，更为越野爱好者开辟了全新的江南赛道的越野体验。赛期临近，由于莫干山季节更替、道路施工、村民劳作等原因，近期组委会与当地政府进行了深入的沟通和研判，出于安全考虑，对TNF10
+            </p>
+            <p>2018-1-1</p>
+        </div>
+
+
+    </div>
+</div>
+<div class="m-index-media hm_clear">
+    <div class="m-index-media-title m-index-news-title hm_clear">
+        <div class="m-index-news-title hm_clear">
+            <div class="m-news-title-left hm_left">
+                <h4>自媒体资讯</h4>
+            </div>
+            <div class="m-news-title-left hm_right">
+                <span>更多+</span>
+            </div>
+        </div>
+    </div>
+    <div class="m-index-media-info hm_clear">
+        <div class="media-info-content hm_clear">
+            <div class="info-content-img hm_clear">
+                <img src="http://stor.ihuipao.cn/@/media/2017/11/15/5a0b98889fe85.jpg?imageView2/1/w/335/h/335/q/100"
+                     alt="">
+            </div>
+            <div class="info-content-msg hm_clear">
+                <p> 深度 | 当我们奔跑时，我们获得了什么？</p>
+                <p>2018-1-1</p>
+            </div>
+
+        </div>
+        <div class="media-info-content hm_clear">
+            <div class="info-content-img hm_clear">
+                <img src="http://stor.ihuipao.cn/@/media/2017/11/15/5a0b98889fe85.jpg?imageView2/1/w/335/h/335/q/100"
+                     alt="">
+            </div>
+            <div class="info-content-msg hm_clear">
+                <p> 深度 | 当我们奔跑时，我们获得了什么？</p>
+                <p>2018-1-1</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="m-sponsor hm_clear">
+    <div class="m-sponsor-lists hm_clear">
+        <div class="m-sponsor-lists-list m-sponsor-lists-first hm_clear">
+            <p>官方赞助商</p>
+            <a href="#">
+                <img src="http://r0.ihuipao.cn/race/2017tnf100mobile/img/guanm-2.png" alt="">
+
+            </a>
+        </div>
+
+    </div>
+    <div class="m-sponsor-lists-list m-sponsor-lists-second hm_clear">
+        <ul class="hm_clear">
+        <li>
+            <p>ITRA认证</p>
+            <a href="#">
+                <img src="http://r0.ihuipao.cn/tnf100m/img/itra.png" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <p>
+                    UTMB认证
+                </p>
+                <img src="http://r0.ihuipao.cn/race/2017tnf100/img/utmb.png" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <p>
+                    主办单位
+                </p>
+                <img src="http://r0.ihuipao.cn/race/2017tnf100mobile/img/ihuipao-logo.png" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <p>
+                    官方计时
+                </p>
+                <img src="http://r0.ihuipao.cn/race/2017tnf100mobile/img/m-jishi2.png" alt="">
+            </a>
+        </li>
+        </ul>
+    </div>
+    <div class="m-sponsor-lists-list m-sponsor-lists-third hm_clear">
+        <p>官方合作伙伴</p>
+        <ul class="hm_clear">
+            <li>
+                <a href="#">
+                    <img src="http://r0.ihuipao.cn/race/2017mgs/img/zan_1.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="http://r0.ihuipao.cn/race/2017tnf100mobile/img/suunto.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="http://r0.ihuipao.cn/race/2017tnf100mobile/img/sun.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="m-sponsor-lists-list m-sponsor-lists-fourth hm_clear">
+        <p>官方赞助商</p>
+        <ul class="hm_clear">
+            <li>
+                <a href="#">
+                    <img src="http://r0.ihuipao.cn/race/2017mgs/img/yibao_h5.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="http://r0.ihuipao.cn/race/2017mgs/img/zan_3.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="http://r0.ihuipao.cn/race/2017mgs/img/zan_2.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="http://r0.ihuipao.cn/race/2017mgs/img/first.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+    <div class="m-footer">
+    <p>主办单位：汇跑®赛事</p>
+    <p>协办单位：莫干山镇人民政府</p>
+    <p>客服电话： 400-99-42195 转1（工作时间：周一至周六9:30-18:30）</p>
+</div>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<!--<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>-->
+
+<script src="../assets/js/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdn.bootcss.com/Swiper/4.0.3/js/swiper.min.js"></script>
+<!--<script src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/assets/js/jquery.knob.min.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/assets/js/countdown.min.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script src="http://r3.ihuipao.cn/site/2018/wuximarathon/h5/js/m.min.js?V=1516589870396=" type="text/javascript" charset="utf-8"></script>-->
+<script src="../js/m.min.js?V=1516589870396=" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>
+
+

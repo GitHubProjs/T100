@@ -1,0 +1,39 @@
+{
+  "name": "TNF1002018",
+  "version": "1.0.0",
+  "description": "ihuipao.com",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build && webpack -p"
+  },
+  "author": "ihuipao.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "*",
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-csslint": "*",
+    "gulp-file-include": "*",
+    "gulp-htmlmin": "*",
+    "gulp-imagemin": "*",
+    "gulp-jslint": "*",
+    "gulp-less": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-notify": "*",
+    "gulp-postcss": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-rev": "*",
+    "gulp-rev-collector": "*",
+    "gulp-uglify": "*",
+    "mockjs": "*",
+    "postcss-reporter": "*",
+    "stylelint": "*"
+  },
+  "dependencies": {
+    "del": "*"
+  }
+}

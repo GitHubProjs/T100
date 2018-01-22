@@ -1,0 +1,8 @@
+.hm_banner {
+    width: 100%;
+    font-size: 0;
+}
+
+.hm_banner .swiper-slide img {
+    width: 100%;
+}

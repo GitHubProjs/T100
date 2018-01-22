@@ -1,0 +1,178 @@
+/*commom*/
+
+.hm_left {
+  float: left;
+}
+
+.hm_right {
+  float: right;
+}
+
+.hm_clear:after {
+  display: block;
+  content: '';
+  clear: both;
+  visibility: hidden
+}
+
+.hidden {
+  display: none!important;
+}
+
+.color_fff {
+  color: #fff!important;
+}
+
+.bg_f6f6f6 {
+  background-color: #f6f6f6;
+}
+
+.title_big {
+  font-size: .7rem;
+  color: #fff;
+  line-height: 1rem;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 2px 2px #666;
+}
+
+.title_small {
+  font-size: .7rem;
+  color: #fff;
+  line-height: 1rem;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 2px 2px #666;
+}
+
+.title_tiny {
+  font-size: .6rem;
+  color: #fff;
+  line-height: 1rem;
+  text-align: center;
+}
+
+@font-face {
+  font-family: digifacewide;
+  src: url(http://r3.ihuipao.cn/site/2018/wuximarathon/h5/css/fonts/digifacewide.eot);
+  src: url(http://r3.ihuipao.cn/site/2018/wuximarathon/h5/css/fonts/digifacewide.eot#iefix) format('embedded-opentype'), url(http://r3.ihuipao.cn/site/2018/wuximarathon/h5/css/fonts/digifacewide.woff) format('woff'), url(http://r3.ihuipao.cn/site/2018/wuximarathon/h5/css/fonts/digifacewide.ttf) format('truetype'), url(http://r3.ihuipao.cn/site/2018/wuximarathon/h5/css/fonts/digifacewide.svg#digifacewide) format('svg')
+}
+
+.digifacewide {
+  font-family: digifacewide!important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: .2px;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.h_toast {
+  position: fixed;
+  z-index: 9999;
+  bottom: 50px;
+  width: 60%;
+  min-width: 100px;
+  overflow: hidden;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  border-radius: 5px;
+  left: 20%;
+  text-align: center;
+  background-color: #333;
+  font-size: 12px;
+  color: #fff;
+  -webkit-transition: opacity .8s;
+  transition: opacity .8s;
+  display: none
+}
+
+
+/*404*/
+
+
+/*.gradient_light{background:linear-gradient(#efefef, #f3f3f3);}*/
+
+.gradient_light {
+  background: #efefef;
+}
+
+
+
+.unfound_container img {
+  display: block;
+  margin: 100px auto 30px;
+  max-width: 658px;
+  width: 100%;
+}
+
+.unfound_container p {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  height: 18px;
+  line-height: 1.6;
+}
+
+.unfound_container .unfound_btns {
+  width: 100%;
+  position: relative;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.unfound_container a {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+  line-height: 25px;
+  height: 25px;
+}
+
+.unfound_container a:hover {
+  color: #333;
+}
+
+.unfound_container a span {
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 25px;
+  width: 23px;
+  background: url(http://r3.ihuipao.cn/site/2018/wuximarathon/pc/img/index/unfound_sprite.png) no-repeat;
+}
+
+.unfound_container a .refresh {
+  background-position: -46px 0;
+}
+
+.unfound_container a .back {
+  background-position: 0 0;
+  vertical-align: top;
+}
+
+.unfound_container a:hover .refresh {
+  background-position: -69px 0;
+}
+
+.unfound_container a:hover .back {
+  background-position: -23px 0;
+}
+
+
+div.col-xs-offset-1 {
+  margin-left: 6.333333%;
+}
+.body_color{
+  background-color: #efeff4;
+}
+
+
+
+
+

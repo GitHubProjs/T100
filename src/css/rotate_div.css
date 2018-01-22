@@ -1,0 +1,51 @@
+.rotate-div {
+    height: 200px;
+    width: 100%;
+    /*position: absolute;*/
+    /*top:0;*/
+    /*left:0;*/
+}
+
+.rotate-div-container {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 15px;
+
+}
+
+.rotate-div-container ul {
+    height: 100%;
+    width: 2400px;
+}
+
+.rotate-div-container .rotate-div-container-box {
+    margin-right: 50px;
+    float: left;
+    width: 350px;
+    height: 100%;
+    background-color: #ffbd2d;
+}
+
+.rotate-div-container .rotate-div-container-box:nth-of-type(6) {
+    margin-right: 0;
+
+}
+
+.rotate-div-container-box {
+    position: relative;
+
+}
+
+.rotate-div-container .rotate-div-number {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+
+}

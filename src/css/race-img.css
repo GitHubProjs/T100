@@ -1,0 +1,27 @@
+.race-img{
+    width:100%;
+}
+.race-img-container {
+    width:1200px;
+    margin:0 auto
+}
+.race-img-container .row a img{
+    width:100%;
+}
+.row-title{
+    text-align: center;
+    margin:20px 0;
+}
+.row-title img{
+    width:30%;
+
+
+}
+.img-a img {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    -webkit-filter: grayscale(100%)
+}
+.img-a:hover img {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+    -webkit-filter: grayscale(0)
+}
